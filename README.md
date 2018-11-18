@@ -10,4 +10,4 @@ $ python ten2original.py
 ```
 
 ## 結果
-10Rの鍵が10Rkey.txtに元の鍵がkey.txtに書き出されます
+10Rの鍵が10Rkey.txtにオリジナルの鍵がkey.txtに書き出されます
