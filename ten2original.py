@@ -55,13 +55,11 @@ for i in range(40):
     else:
         key[39-i] = key[43-i] ^ key[42-i]
 num = 0
-for i in key:
-    print(hex(i))
 
 with open('key.txt', mode='w') as f:
     original_key = '0x'
     for i in key[0:4]:
-        original_key += str(hex(i))[2:]
+        original_key += format(i,'08x')
     f.write(original_key)
 
 print(original_key)
