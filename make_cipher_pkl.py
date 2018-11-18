@@ -26,7 +26,7 @@ with open('aes.pkl',mode = 'wb') as f:
 
 data = []
 
-with open('cipher.txt',mode = 'r') as f:
+with open('file/cipher.txt',mode = 'r') as f:
     for line in f:
         line = line.strip()
         line = line[2:]
