@@ -1,6 +1,8 @@
 # CPA for AES 
-~~~ python make_pkl.py ~~~
-2. python profile.py
-3. python cpa.py
-4. python ten2original.py
 
+//cmd{
+$ python make_pkl.py
+$ python profile.py
+$ python cpa.py
+$ python ten2original.py
+//}
